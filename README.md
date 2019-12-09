@@ -6,8 +6,8 @@ Useful when you want to check if the scheduled search query would trigger for pa
 
 ## Usage
 
-# Put your query to `query.txt`
-# `run.py` e.g.
+1. Put your query to `query.txt`
+2. `run.py` e.g.
 ```
 PYTHONUNBUFFERED=TRUE python3.6 run.py | tee /tmp/my.precious.output
 ```
