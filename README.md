@@ -14,8 +14,14 @@ e.g. Run the same query for:
 
 ## Usage
 
-1. Put your query to `query.txt`
-2. `run.py` e.g.
+1. Put your query into `query.txt`
+2. Specify Sumo credentials, e.g.
+```
+export SUMO_ACCESS_ID="susomething"
+export SUMO_ACCESS_KEY="zsomething"
+export SUMO_ENDPOINT="https://api.sumologic.com/api/v1"
+```
+3. `run.py` e.g.
 ```
 PYTHONUNBUFFERED=TRUE python3.6 run.py | tee /tmp/my.precious.output
 ```
