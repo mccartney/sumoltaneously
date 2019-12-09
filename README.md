@@ -21,7 +21,8 @@ export SUMO_ACCESS_ID="susomething"
 export SUMO_ACCESS_KEY="zsomething"
 export SUMO_ENDPOINT="https://api.sumologic.com/api/v1"
 ```
-3. `run.py` e.g.
+3. Edit `run.py` for prefered startTime, etc.
+4. `run.py` e.g.
 ```
 PYTHONUNBUFFERED=TRUE python3.6 run.py | tee /tmp/my.precious.output
 ```
