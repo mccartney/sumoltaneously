@@ -24,7 +24,7 @@ runCount = int((lastStartTime - firstStartTime) / startTimeStep)
 
 def startQuery(iteration):
   thisStartTime = firstStartTime + iteration * startTimeStep
-  return sumo.search_job(query, fromTime = thisStartTime, toTime = thisStartTime + duration, timeZone = "CET", byReceiptTime = False)
+  return sumo.search_job(query, fromTime = thisStartTime, toTime = thisStartTime + duration, timeZone = "Europe/Warsaw", byReceiptTime = False)
 
 def dateForIteration(iteration):
   return datetime.datetime.fromtimestamp((firstStartTime + iteration * startTimeStep) / 1000).strftime("%m/%d/%Y %I:%M %p")
