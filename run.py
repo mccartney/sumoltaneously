@@ -13,9 +13,9 @@ with open("query.txt", "r") as query_file:
   query = query_file.read()
 
 duration = 24 * 60 * 60 * 1000
-startTimeStep = 10 * 24 * 60 * 60 * 1000
+startTimeStep = 7 * 24 * 60 * 60 * 1000
 
-firstStartTime = 1704067200000
+firstStartTime = 1716336000000
 lastStartTime = 1730419200000
 
 runCount = int((lastStartTime - firstStartTime) / startTimeStep)
